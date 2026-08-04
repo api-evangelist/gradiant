@@ -1,23 +1,93 @@
 aid: gradiant
 name: Gradiant
-description: 'Gradiant is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Gradiant is a global water and wastewater infrastructure company founded
+  in 2013 out of MIT and headquartered in Boston, Massachusetts, that designs, builds
+  and operates end-to-end industrial water systems from intake to discharge. It positions
+  itself as "the Water Layer of the AI Economy", supplying ultrapure water, process
+  water, wastewater recycling, minimal- and zero-liquid-discharge and resource-recovery
+  systems to semiconductor fabs, AI data centers, energy producers and applied industries
+  including pharmaceuticals, mining, food and beverage, refining and chemicals, textiles
+  and renewables. Its proprietary technology portfolio includes Counterflow Reverse
+  Osmosis (CFRO), Semi-Batch Reverse Osmosis (SBRO), Carrier Gas Extraction (CGE),
+  Selective Contaminant Extraction (SCE), Free Radical Oxidation (FRO), Bio Infinity,
+  the ForeverGone PFAS destruction process, the HyperSolved data-center cooling-water
+  platform, the CURE Chemicals specialty-chemicals line and SmartOps AI, a machine-learning
+  platform for optimizing and predicting plant operations. Gradiant raised a Series
+  E at a $2 billion valuation in May 2026. It is an industrial equipment, chemicals
+  and build-own-operate services company: it publishes no public developer portal,
+  no developer API, no SDK and no machine-readable API contract, and SmartOps AI is
+  delivered as a customer-facing operations platform rather than as a public API.'
 url: https://raw.githubusercontent.com/api-evangelist/gradiant/refs/heads/main/apis.yml
+image: https://www.gradiant.com/wp-content/uploads/2026/07/Logo-Featured-Image-1.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enriched
 specificationVersion: '0.20'
 created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Water
+- Water Treatment
+- Wastewater
+- Desalination
+- Industrial Water
+- Semiconductors
+- Data Centers
+- Clean Technology
+- Sustainability
+- Specialty Chemicals
+- Industrial Equipment
 apis: []
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gradiant-domain-security.yml
 - type: Website
+  url: https://www.gradiant.com/
+- type: About
+  url: https://www.gradiant.com/about-us/
+- type: Products
+  url: https://www.gradiant.com/technologies/
+- type: Solutions
+  url: https://www.gradiant.com/solutions/
+- type: Platform
+  url: https://www.gradiant.com/technologies/smartops-ai/
+- type: Newsroom
+  url: https://www.gradiant.com/newsroom/
+- type: Blog
+  url: https://www.gradiant.com/knowledge-base/
+- type: BlogFeeds
+  url: https://www.gradiant.com/feed/
+- type: Support
+  url: https://www.gradiant.com/contact/
+- type: Contact
+  url: https://www.gradiant.com/contact/
+- type: Offices
+  url: https://www.gradiant.com/contact/global-offices/
+- type: Careers
+  url: https://www.gradiant.com/contact/careers/
+- type: TermsOfService
+  url: https://www.gradiant.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.gradiant.com/privacy-policy-gradiant/
+- type: CodeOfConduct
+  url: https://www.gradiant.com/business-integrity-program/
+- type: Suppliers
+  url: https://www.gradiant.com/supplier-center/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/gradiant-corporation
+- type: SecondaryMarket
   url: https://forgeglobal.com/gradiant_stock/
+- type: LLMsTxt
+  url: llms/gradiant-llms.txt

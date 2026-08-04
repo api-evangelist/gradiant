@@ -1,0 +1,106 @@
+generated: '2026-08-04'
+method: probed
+source: live GET of /.well-known/* on every host in apis.yml
+note: >-
+  No /.well-known/ document was found on any Gradiant host. www.gradiant.com is a
+  WordPress (Yoast/Elementor, WP Engine hosted) marketing site that returns an HTML
+  404 for every /.well-known/* path; the apex gradiant.com 301-redirects to www for
+  those paths and 404s for security.txt directly. No raw file was saved and no
+  WellKnown or SecurityTxt pointer is wired in apis.yml. Recorded so later enrichment
+  rounds do not re-probe blindly.
+hosts:
+- host: https://www.gradiant.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/mcp.json
+    status: 404
+- host: https://gradiant.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 301
+    redirects_to: https://www.gradiant.com/.well-known/openid-configuration
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/oauth-protected-resource
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+  - path: /.well-known/agent-card.json
+    status: 301
+  - path: /.well-known/agent.json
+    status: 301
+  - path: /.well-known/mcp.json
+    status: 301
+contract_discovery:
+  note: >-
+    Full STEP 0b contract discovery was run before recording "no machine-readable
+    API contract". Gradiant is an industrial water equipment, specialty-chemicals and
+    build-own-operate services company; it publishes no developer portal, no API
+    reference, no SDK and no OpenAPI/AsyncAPI/GraphQL/MCP surface. SmartOps AI, its
+    machine-learning plant-optimization platform, is documented as a customer-facing
+    operations product with no public API documentation.
+  openapi:
+    probed:
+    - {url: 'https://www.gradiant.com/openapi.json', status: 404}
+    result: none
+  graphql:
+    result: none
+    detail: no /graphql surface found on any resolving host
+  mcp:
+    result: none
+    detail: 'no hosted MCP server; /.well-known/mcp.json 404'
+  a2a:
+    result: none
+    detail: >-
+      /.well-known/agent-card.json and /.well-known/agent.json both 404 on
+      www.gradiant.com; no agent card exists, so no a2a/ artifact was written.
+  subdomains_probed:
+  - api.gradiant.com
+  - developer.gradiant.com
+  - docs.gradiant.com
+  - status.gradiant.com
+  - trust.gradiant.com
+  - app.gradiant.com
+  - portal.gradiant.com
+  - smartops.gradiant.com
+  - mcp.gradiant.com
+  - cdn.gradiant.com
+  subdomain_result: NXDOMAIN on all ten
+  incidental_surface:
+    kind: WordPress REST API
+    url: https://www.gradiant.com/wp-json/
+    status: 200
+    namespaces: 22
+    routes: 466
+    registered: false
+    reason: >-
+      The site's WordPress REST API is publicly reachable (wp/v2 plus Elementor,
+      Yoast, Wordfence and a site-specific gradiant/v1 namespace), but it is CMS
+      infrastructure for the marketing site, not a product API Gradiant offers to
+      developers. It is recorded here for auditability and deliberately NOT
+      registered as an API in apis.yml or scored — doing so would misrepresent
+      Gradiant as an API provider.
+x-evidence:
+  fetched: '2026-08-04'
+  hosts_probed:
+  - www.gradiant.com
+  - gradiant.com

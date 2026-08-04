@@ -42,5 +42,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gradiant is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Gradiant is a global water and wastewater infrastructure company founded in 2013 out of MIT and headquartered in Boston, Massachusetts, that designs, builds and operates end-to-end industrial water systems for semiconductor fabs, AI data centers, energy producers and applied industries. Its technology portfolio includes Counterflow Reverse Osmosis (CFRO), Semi-Batch Reverse Osmosis (SBRO), Carrier Gas Extraction (CGE), Selective Contaminant Extraction (SCE), Free Radical Oxidation (FRO), Bio Infinity, ForeverGone PFAS destruction, the HyperSolved data-center cooling-water platform, CURE Chemicals, and SmartOps AI.
+
+Gradiant is an industrial equipment, chemicals and build-own-operate services company. As of this profile it publishes **no public developer portal, no developer API, no SDK and no machine-readable API contract** — see `well-known/gradiant-well-known.yml` for the full contract-discovery probe record.
+
+- https://www.gradiant.com/
 - https://forgeglobal.com/gradiant_stock/
