@@ -18,6 +18,17 @@ description: 'Gradiant is a global water and wastewater infrastructure company f
   no developer API, no SDK and no machine-readable API contract, and SmartOps AI is
   delivered as a customer-facing operations platform rather than as a public API.'
 url: https://raw.githubusercontent.com/api-evangelist/gradiant/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.gradiant.com/wp-content/uploads/2026/07/Logo-Featured-Image-1.png
 x-type: company
 x-source: harvest:secondary-market
