@@ -57,7 +57,7 @@ tags:
 - Desalination
 - Industrial Water
 - Semiconductors
-- Data-Center
+- Data Center
 - Clean Technology
 - Sustainability
 - Specialty Chemicals
@@ -75,6 +75,7 @@ tags_raw:
 - Sustainability
 - Specialty Chemicals
 - Industrial Equipment
+- Data-Center
 apis: []
 x-enrichment:
   date: '2026-08-04'
