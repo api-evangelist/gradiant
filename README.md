@@ -64,9 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gradiant is a global water and wastewater infrastructure company founded in 2013 out of MIT and headquartered in Boston, Massachusetts, that designs, builds and operates end-to-end industrial water systems for semiconductor fabs, AI data centers, energy producers and applied industries. Its technology portfolio includes Counterflow Reverse Osmosis (CFRO), Semi-Batch Reverse Osmosis (SBRO), Carrier Gas Extraction (CGE), Selective Contaminant Extraction (SCE), Free Radical Oxidation (FRO), Bio Infinity, ForeverGone PFAS destruction, the HyperSolved data-center cooling-water platform, CURE Chemicals, and SmartOps AI.
+Gradiant is a global water and wastewater infrastructure company founded in 2013 out of MIT and headquartered in Boston, Massachusetts, that designs, builds and operates end-to-end industrial water systems from intake to discharge. It positions itself as "the Water Layer of the AI Economy", supplying ultrapure water, process water, wastewater recycling, minimal- and zero-liquid-discharge and resource-recovery systems to semiconductor fabs, AI data centers, energy producers and applied industries including pharmaceuticals, mining, food and beverage, refining and chemicals, textiles and renewables. Its proprietary technology portfolio includes Counterflow Reverse Osmosis (CFRO), Semi-Batch Reverse Osmosis (SBRO), Carrier Gas Extraction (CGE), Selective Contaminant Extraction (SCE), Free Radical Oxidation (FRO), Bio Infinity, the ForeverGone PFAS destruction process, the HyperSolved data-center cooling-water platform, the CURE Chemicals specialty-chemicals line and SmartOps AI, a machine-learning platform for optimizing and predicting plant operations. Gradiant raised a Series E at a $2 billion valuation in May 2026. It is an industrial equipment, chemicals and build-own-operate services company: it publishes no public developer portal, no developer API, no SDK and no machine-readable API contract, and SmartOps AI is delivered as a customer-facing operations platform rather than as a public API.
 
-Gradiant is an industrial equipment, chemicals and build-own-operate services company. As of this profile it publishes **no public developer portal, no developer API, no SDK and no machine-readable API contract** — see `well-known/gradiant-well-known.yml` for the full contract-discovery probe record.
+**Areas:** Company · Water · Water Treatment · Wastewater · Desalination · Industrial Water · Semiconductors · Data Center · Clean Technology · Sustainability · Specialty Chemicals · Industrial Equipment
 
-- https://www.gradiant.com/
-- https://forgeglobal.com/gradiant_stock/
+## Gradiant on APIs.io
+
+Everything profiled for Gradiant is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gradiant/](https://apis.io/providers/gradiant/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gradiant Domain Security](https://apis.io/security/gradiant/gradiant-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.gradiant.com/)
+- [Support](https://www.gradiant.com/contact/)
+- [Blog](https://www.gradiant.com/knowledge-base/)
+- [Terms of service](https://www.gradiant.com/terms-of-service/)
+- [Privacy policy](https://www.gradiant.com/privacy-policy-gradiant/)
+
+## API Evangelist rating
+
+**Kin Score 11.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gradiant/](https://apis.io/providers/gradiant/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gradiant: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gradiant/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
